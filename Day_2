@@ -6,3 +6,16 @@ print(fullname)
 print(fullname.title())
 print(fullname.upper())
 print(fullname.lower())
+print("\t\tpython")
+print("languages :\nPython\nc\nJava")
+x="values is"
+x="values"
+print(x)
+x="value  "
+x="value"
+print(x)
+print(x.strip())
+# operators
+2+3,5-4,5*5,5%5
+x,y,z=1,2,3
+import this
