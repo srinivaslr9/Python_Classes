@@ -1,1 +1,9 @@
 
+x=5
+y=8
+message="Hello Python"
+print(message)
+name="srinivas"
+print(name.title())
+print(name.upper())
+print(name.lower())
