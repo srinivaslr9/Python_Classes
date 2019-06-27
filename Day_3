@@ -1,1 +1,22 @@
 
+bicycles=['car','bus','cycle','flight']
+print(bicycles[0])
+print(bicycles[3])
+print(bicycles[1])
+print(bicycles[2])
+print(bicycles[0].title())
+# Assign a new value
+bicycles[2]='helicopter'
+print(bicycles)
+# Apend a value
+bicycles.append('ranger')
+print(bicycles)
+# Insert a new value
+bicycles.insert(5,'acter')
+print(bicycles)
+# Delete a value
+bicycles.pop(5)
+print(bicycles)
+# Sort a new value
+bicycles.sort()
+print(bicycles)
