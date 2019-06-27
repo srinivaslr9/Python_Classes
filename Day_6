@@ -1,1 +1,20 @@
 
+#Sclicing of List
+
+Players=['Kohli','Dhoni','Yuvi','Sachin']
+print(Players[0:3])
+print(Players[2:5])
+print(Players[:2])
+print(Players[0:])
+print('Captain of india team')
+for player in Players[:2]:
+    print(player.title())
+    
+#Coping a List
+my_food=['rice','curry','dosa','idly','veg','non-veg']
+friends_food=my_food[:]
+print(friends_food)
+my_food.append('choclate')
+friends_food.append('ice cream')
+print(my_food)
+print(friends_food)
