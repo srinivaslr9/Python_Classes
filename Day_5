@@ -1,1 +1,21 @@
 
+motorcycles=['honda','yamaha','suziki']
+print(motorcycles[-1])
+students=['pankaj','manoj','rambabu']
+for student in students:
+    print(student)
+students=['pankaj','manoj','rambabu']
+for student in students:
+    print(f"{student.title()},you are best")
+print("Thankyou")
+
+numbers=list(range(1,9))
+print (numbers)
+for value in range(1,11):
+    print(value)
+    
+square=[]
+for value in range(1,16):
+    square=value ** 2
+    squares.append(square)
+    print(square)
