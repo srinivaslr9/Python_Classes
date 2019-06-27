@@ -1,1 +1,9 @@
+bicycles.reverse()
+print(bicycles)
+bike=[]
+print("initial blank list")
+print(bike)
+
+Bikes=['honda','bajaj','hero']
+print(Bikes)
 
