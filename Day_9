@@ -1,1 +1,8 @@
+exp1={'color':'green','points':5}
+print(exp1['color'])
+print(exp1['points'])
+
+exp2={'color':'yellow','points':5}
+print(exp2['color'])
+print(exp2['points'])
 
