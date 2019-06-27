@@ -1,1 +1,8 @@
 
+firstname="srinivas"
+lastname="madasu"
+fullname=f"{firstname}{lastname}"
+print(fullname)
+print(fullname.title())
+print(fullname.upper())
+print(fullname.lower())
