@@ -1,1 +1,28 @@
+dimensions=(200,400,300)
+print(dimensions[0])
+print(dimensions[-1])
+print(dimensions)
 
+dimensions=(200,400,300)
+print("Original Dimensions Defined")
+for dimension in dimensions:
+    print(dimension)
+    
+dimensions=(600,700,800)
+print("\nModified Dimensions Value")
+for dimension in dimensions:
+    print(dimension)
+    
+cars=['audi','honda','toyota','bmw']
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
+        
+car="Audi"
+car.lower()=="audi"
+
+req="mushroom"
+if req!='veg':
+    print("get me veg")
