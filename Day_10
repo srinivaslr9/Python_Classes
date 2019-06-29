@@ -14,6 +14,6 @@ lang=fav_lang['Srinivas'].title()
 print(f"Srinivas Fav Language is {lang}.")
 
 ex_2={'color':'orange','speed':'slow'}
-print(ex_2['points'])
-sol=ex_2.get('points',"points are not declared in the above Dic try with another key")
+#print(ex_2['points'])
+sol = ex_2.get('points','points are not declared in the above Dic try with another key')
 print (sol)
