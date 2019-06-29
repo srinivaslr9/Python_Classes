@@ -1,0 +1,24 @@
+users={'username':'Srinivaslr','firstname':'Srinivas','lastname':'M'}
+
+for key,value in users.items():
+    print(f"\n key : {key}")
+    print(f" value : {value}")
+    
+    
+users={'username':'Srinivaslr','firstname':'Srinivas','lastname':'M'}
+# x,y or key,value are place holders we can keep any
+for x,y in users.items():
+    print(f"\n key : {x}")
+    print(f" value : {y}")
+
+
+users={'username':'Srinivaslr','firstname':'Srinivas','lastname':'M'}
+# x,y or key,value are place holders we can keep any
+for key in users.keys():
+    print(f"\n key : {key}")
+    
+    
+users={'username':'Srinivaslr','firstname':'Srinivas','lastname':'M'}
+# x,y or key,value are place holders we can keep any
+for value in users.values():
+    print(f"\n key : {value}")
