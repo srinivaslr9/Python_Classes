@@ -1,1 +1,19 @@
+Board={'color':'green'}
+print(f"the colour of the board is now {Board['color']}.")
+Board['color']='yellow'
+print(f"The colour of the board is now {Board['color']}.")
 
+
+ex_1={'color':'red','points':10}
+print(ex_1)
+del ex_1['points']
+print(ex_1)
+
+fav_lang={'selva':'c','manjo':'Java','pavan':'c++','Srinivas':'Performance engineer','srini':'loadrunner'}
+lang=fav_lang['Srinivas'].title()
+print(f"Srinivas Fav Language is {lang}.")
+
+ex_2={'color':'orange','speed':'slow'}
+print(ex_2['points'])
+sol=ex_2.get('points',"points are not declared in the above Dic try with another key")
+print (sol)
